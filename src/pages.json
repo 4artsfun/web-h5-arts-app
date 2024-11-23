@@ -1,0 +1,98 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/trade/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/works/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/market/product",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/market/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/genesis/airdrop",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/genesis/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ecosystem/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/summary",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bar/structure",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ido/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#3E2E3B",
+		"navigationBarTitleText": "4ARTS",
+		"navigationBarBackgroundColor": "#f7f7f7",
+		"backgroundColorBottom": "#f7f7f7",
+		"backgroundColorTop": "#f7f7f7",
+		"backgroundColor": "#f7f7f7",
+		"pageOrientation": "portrait",
+		"app-plus" : {
+			"bounce" : "none",
+			"softinputNavBar": "none"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#f7f7f7",
+		"color": "#f7f7f7",
+		"selectedColor": "#f7f7f7",
+		"list": [
+			{"pagePath": "pages/home/index"}
+		]
+	}
+}

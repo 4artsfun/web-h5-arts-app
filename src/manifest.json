@@ -1,0 +1,27 @@
+{
+    "name" : "Arts4",
+    "appid" : "__UNI__D8345B4",
+    "description" : "",
+    "versionName" : "1.0.1",
+    "locale": "en",
+    "versionCode" : 1,
+    "transformPx" : false,
+    "vueVersion" : "3",
+    "h5" : {
+        "devServer" : {
+            "port" : 8080,
+            "disableHostCheck" : true,
+            "proxy" : {
+                "/arts" : {
+//                    "target" : "https://www.4arts.cc",
+                    "target" : "https://www.4arts.fun",
+                    "changeOrigin" : true,
+                    "secure" : false
+                }
+            }
+        },
+        "router" : {
+            "mode" : "history"
+        }
+    }
+}

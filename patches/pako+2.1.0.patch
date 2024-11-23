@@ -1,0 +1,20 @@
+diff --git a/node_modules/pako/dist/pako.esm.mjs b/node_modules/pako/dist/pako.esm.mjs
+index d110ebd..cc94a66 100644
+--- a/node_modules/pako/dist/pako.esm.mjs
++++ b/node_modules/pako/dist/pako.esm.mjs
+@@ -426,13 +426,13 @@ const tr_static_init = () => {
+   //if (static_init_done) return;
+ 
+   /* For some embedded targets, global variables are not initialized: */
+-/*#ifdef NO_INIT_GLOBAL_POINTERS
++//#ifdef NO_INIT_GLOBAL_POINTERS
+   static_l_desc.static_tree = static_ltree;
+   static_l_desc.extra_bits = extra_lbits;
+   static_d_desc.static_tree = static_dtree;
+   static_d_desc.extra_bits = extra_dbits;
+   static_bl_desc.extra_bits = extra_blbits;
+-#endif*/
++//#endif
+ 
+   /* Initialize the mapping length (0..255) -> length code (0..28) */
+   length = 0;

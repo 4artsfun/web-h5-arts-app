@@ -1,0 +1,42 @@
+.mescroll-upwarp {
+	box-sizing: border-box;
+	min-height: 110rpx;
+	padding: 30rpx 0;
+	text-align: center;
+	clear: both;
+}
+
+.mescroll-upwarp .upwarp-tip,
+.mescroll-upwarp .upwarp-nodata {
+	display: inline-block;
+	font-size: 28rpx;
+	vertical-align: middle;
+}
+
+.mescroll-upwarp .upwarp-tip {
+	margin-left: 16rpx;
+}
+
+.mescroll-upwarp .upwarp-progress {
+	display: inline-block;
+	width: 32rpx;
+	height: 32rpx;
+	border-radius: 50%;
+	border: 2rpx solid gray;
+	border-bottom-color: transparent !important;
+	vertical-align: middle;
+}
+
+.mescroll-upwarp .mescroll-rotate {
+	animation: mescrollUpRotate 0.6s linear infinite;
+}
+
+@keyframes mescrollUpRotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
